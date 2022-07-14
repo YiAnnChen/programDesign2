@@ -1,0 +1,17 @@
+.button{
+		-fx-background-radius:5em;
+		-fx-background-color:"lightyellow";
+		-fx-font-family:"Comic SAns MS";
+		-fx-font-size:15;
+		-fx-font-weight:bold;
+	}
+.root{
+		-fx-background-color:"#DAE6C2";
+	}
+#chooseGame{
+		-fx-font-family:"Comic SAns MS";
+		-fx-font-size:30;
+	}
+
+
+	

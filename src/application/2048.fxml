@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="mainPane" focusTraversable="true" prefHeight="600.0" prefWidth="599.0" style="-fx-background-color: &quot;0xFAF8EF&quot;;" xmlns="http://javafx.com/javafx/17.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+    <children>
+        <Canvas fx:id="mainCanvas" focusTraversable="true" height="500.0" layoutX="127.0" layoutY="14.0" onKeyPressed="#keyPressed" onMouseClicked="#clickToStart" width="500.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="50.0" />
+    </children>
+</AnchorPane>

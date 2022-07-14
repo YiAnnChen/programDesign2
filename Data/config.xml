@@ -1,0 +1,59 @@
+
+<game>
+	<frame title = "Tetris Battle!" width="1200" height="678" padding="16" size="6"
+	startButtonX="810" startButtonY="540" startButtonW="280" startButtonH="50"
+	settingButtonX="960" settingButtonY="540" settingButtonW="135" settingButtonH="50">
+		<layer className= "ui.LayerBackGround" x="0" y="0" w="1200" h="678"/>
+		<layer className= "ui.LayerRank" x="40" y="31" w="332" h="278"/>
+		<layer className= "ui.LayerDisk" x="40" y="339" w="332" h="279"/>
+		<layer className= "ui.LayerGame" x="412" y="31" w="332" h="588"/>
+		<layer className= "ui.LayerTime" x="784" y="31" w="332" h="120"/>
+		<layer className= "ui.LayerNext" x="784" y="171" w="166" h="140"/>
+		<layer className= "ui.LayerNextNext" x="950" y="171" w="166" h="140"/>
+		<layer className= "ui.LayerPoint" x="784" y="331" w="332" h="180"/>
+		<layer className= "ui.LayerButton" x="784" y="527" w="332" h="76"/>	
+	</frame>
+	<system max_bit="5" max_row="5" levelUp="300" min_x="0" min_y="0" max_x="9" max_y="17">
+		<rect rotate="true">
+			<point x='4' y='0'/><point x='3' y='0'/><point x='5' y='0'/><point x='6' y='0'/>
+		</rect>
+		<rect rotate="true">
+			<point x='4' y='0'/><point x='3' y='0'/><point x='5' y='0'/><point x='4' y='1'/>
+		</rect>
+		<rect rotate="true">
+			<point x='4' y='0'/><point x='3' y='0'/><point x='5' y='0'/><point x='3' y='1'/>
+		</rect>
+		<rect rotate="true">
+			<point x='4' y='0'/><point x='5' y='0'/><point x='3' y='1'/><point x='4' y='1'/>
+		</rect>
+		<rect rotate="false">
+			<point x='4' y='0'/><point x='5' y='0'/><point x='4' y='1'/><point x='5' y='1'/>
+		</rect>
+		<rect rotate="true">
+			<point x='4' y='0'/><point x='3' y='0'/><point x='5' y='0'/><point x='5' y='1'/>
+		</rect>
+		<rect rotate="true">
+			<point x='4' y='0'/><point x='3' y='0'/><point x='4' y='1'/><point x='5' y='1'/>
+		</rect>
+		<plusPoint rm="1" point="10"/>
+		<plusPoint rm="2" point="30"/>
+		<plusPoint rm="3" point="50"/>
+		<plusPoint rm="4" point="80"/>
+		
+		<rankList level='1' rank = '新秀'/>
+		<rankList level='2' rank = '先鋒'/>
+		<rankList level='3' rank = '勇者'/>
+		<rankList level='4' rank = '戰將'/>
+		<rankList level='5' rank = '菁英'/>
+		<rankList level='6' rank = '戰場傳說'/>
+		<rankList level='7' rank = '永恆傳說'/>
+		<rankList level='8' rank = '超永恆傳說'/>
+		<rankList level='9' rank = '大富翁 '/>
+	
+	</system>
+	<data>
+	
+	</data>
+	
+	
+</game>
